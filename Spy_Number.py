@@ -1,12 +1,13 @@
 n=int(input())
-p=1
 s=0
+p=1
 while n>0:
-    i=n%10
-    s+=i
-    p*=i
+    r=n%10
+    s+=r
+    p*=r
     n=n//10
-if s==p:
+    
+if(p==s):
     print("Spy Number")
 else:
     print("Not Spy Number")
