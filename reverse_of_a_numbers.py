@@ -1,8 +1,7 @@
-n = int(input())
-t = n
-rev = 0
-while n > 0: 
-    r = n % 10
-    rev = rev * 10 + r 
-    n = n // 10 
-print(rev)
+n=input()
+k=[]
+for i in n:
+    k.append(int(i))
+k=k[::-1]
+for i in k:
+    print(i,end="")
